@@ -29,3 +29,19 @@ policies.
 2. The VTS must use the Central Authentication Service (CAS) for user identification, as it is an extension of the existing company intranet portal
 3. The application must function properly on all HTML 3.2–capable browsers
 4. The architecture must account for the fact that the client and server are only connected long enough to process a single request, requiring a robust client state management mechanism (such as cookies or URL redirection)
+
+## Manage Time Use Case Diagrams
+
+### Entity Relationship Diagram
+
+![VTS ERD](use-cases/manage-time/erd/vts-erd.png)
+
+### Flowcharts
+
+![Create New Request](use-cases/manage-time/flowcharts/create-new-request.png)
+
+![Edit Request](use-cases/manage-time/flowcharts/edit-request.png)
+
+![Withdraw Request](use-cases/manage-time/flowcharts/withdraw-request.png)
+
+![Cancel Approved Request](use-cases/manage-time/flowcharts/cancel-approved-request.png)
