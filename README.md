@@ -40,8 +40,14 @@ policies.
 
 ![Create New Request](use-cases/manage-time/flowcharts/create-new-request.png)
 
+Create New Request
+
 ![Edit Request](use-cases/manage-time/flowcharts/edit-request.png)
+Edit Request
 
 ![Withdraw Request](use-cases/manage-time/flowcharts/withdraw-request.png)
 
+Withdraw Pending Request
+
 ![Cancel Approved Request](use-cases/manage-time/flowcharts/cancel-approved-request.png)
+Cancel Approved Request
