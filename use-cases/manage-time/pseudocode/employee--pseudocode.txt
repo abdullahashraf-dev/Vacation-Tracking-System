@@ -1,0 +1,52 @@
+
+getEmployeeRequests(employeeId)
+{
+    return findEmployeeRequests(employeeId);
+}
+
+getRequests(paginationDto)
+{
+    return getRequests(paginationDto);
+}
+
+showRequest(employeeId,requestId)
+{
+     validateEmployeeOwnRequest(employeeId,requestId);
+     return getRequest(requestId);
+}
+
+createRequest(createRequestDto)
+{
+  validateData(createRequestDto);
+  validateRestrictions(createRequestDto);
+  request = createRequestDto(employeeId,createRequestDto);
+  sendEmailToManager(requestId)
+}
+
+editRequest(employeeId,requestId,updateRequestDto)
+{
+    validateEmployeeOwnRequest(employeeId,requestId);
+    validateRequestStatus();
+    updateRequest(requestId,updateRequestDto);
+}
+
+cancelRequest(employeeId,requestId,cancelRequestDto)
+{
+   validateEmployeeOwnRequest(employeeId,requestId);
+    validateRequestStatus();
+    updateRequest(requestId,updateRequestDto);
+   sendEmailToManager(requestId)
+}
+
+
+
+validateEmployeeOwnRequest(employeeId,requestId)
+{
+    validateEmployeeExist();
+    validateRequestExist();
+    ValidateRequestOwnedByEmployee();
+}
+
+
+
+
