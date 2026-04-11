@@ -15,20 +15,21 @@ policies.
 8. Enables the HR and system administration personnel to override all actions restricted by rules, with logging of those overrides
 9. Allows managers to directly award personal leave time (with system-set limits)
 10. Provides a Web service interface for other internal systems to query any given employee’s vacation request summary
-11. Interfaces with the HR department legacy systems to retrieve required employee information and changes
+11. Integrate with the HR department legacy systems to retrieve required employee information and changes
 
 # Non-Functional Requirements
 
-1. The system must be easy to use
+1. The system must be easy to use(reusable)
 2. Save time and money mostly in the HR department
 3. Improve the internal business processes of this organization, at least with respect to the time it takes to manage vacation time requests
 
 ## Constraints
 
-1. Web Application
-2. The VTS must use the Central Authentication Service (CAS) for user identification, as it is an extension of the existing company intranet portal
-3. The application must function properly on all HTML 3.2–capable browsers
-4. The architecture must account for the fact that the client and server are only connected long enough to process a single request, requiring a robust client state management mechanism (such as cookies or URL redirection)
+1. Integration: Integrate with HR department legacy systems to retrieve employee information and changes
+2. Single-Sign-On (SSO): The VTS must use the Central Authentication Service (CAS) for user identification, as it is an extension of the existing company intranet portal
+3. Hardware: Uses existing hardware
+4. Integration as an Intranet Extension : The VTS is explicitly defined as an extension of the existing company intranet portal
+   . By building it as a Web-centric application integrated into the current infrastructure, the system provides a natural entry point for users who are already familiar with the company's internal tools
 
 ## Manage Time Use Case Diagrams
 
