@@ -35,7 +35,9 @@ policies.
 
 ### Entity Relationship Diagram
 
-![VTS ERD](use-cases/manage-time/erd/vts-erd.png)
+[![VTS ERD](use-cases/manage-time/erd/vts-erd.png)](https://dbdiagram.io/d/69da41f18089629684718610)
+
+[View Live ERD on dbdiagram.io](https://dbdiagram.io/d/69da41f18089629684718610)
 
 ### Flowcharts
 
