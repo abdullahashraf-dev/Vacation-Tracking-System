@@ -41,16 +41,22 @@ policies.
 
 ### Flowcharts
 
-![Create New Request](use-cases/manage-time/flowcharts/create-new-request.png)
+![Create New Request - Employee](use-cases/manage-time/flowcharts/create-new-request-employee.png)
 
-Create New Request
+Create New Request (Employee)
+
+![Create New Request - Manager](use-cases/manage-time/flowcharts/create-new-request-manager.png)
+
+Create New Request (Manager)
 
 ![Edit Request](use-cases/manage-time/flowcharts/edit-request.png)
+
 Edit Request
 
 ![Withdraw Request](use-cases/manage-time/flowcharts/withdraw-request.png)
 
 Withdraw Pending Request
 
-![Cancel Approved Request](use-cases/manage-time/flowcharts/cancel-approved-request.png)
-Cancel Approved Request
+![Cancel Request](use-cases/manage-time/flowcharts/cancel-request.png)
+
+Cancel Request
