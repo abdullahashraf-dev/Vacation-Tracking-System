@@ -45,7 +45,7 @@ policies.
 
 Create New Request (Employee)
 
-![Create New Request - Manager](use-cases/manage-time/flowcharts/create-new-request-manager.png)
+![Create New Request - Manager](use-cases/manage-time/flowcharts/create-new-request.png)
 
 Create New Request (Manager)
 
