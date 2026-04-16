@@ -31,6 +31,19 @@ policies.
 4. Integration as an Intranet Extension : The VTS is explicitly defined as an extension of the existing company intranet portal
    . By building it as a Web-centric application integrated into the current infrastructure, the system provides a natural entry point for users who are already familiar with the company's internal tools
 
+## Actors
+
+- Employee
+- Manager
+- HR
+- Admin
+
+## Tools Used for Diagrams
+
+- [dbdiagram.io](https://dbdiagram.io/)
+- [Lucid](https://lucid.app/)
+- [Mermaid](https://mermaid.ai/)
+
 ## Manage Time Use Case Diagrams
 
 ### Entity Relationship Diagram
@@ -39,25 +52,37 @@ policies.
 
 [View Live ERD on dbdiagram.io](https://dbdiagram.io/d/69da41f18089629684718610)
 
+[Open ERD image](use-cases/manage-time/erd/vts-erd.png)
+
 ### Flowcharts
 
 ![Create New Request - Employee](use-cases/manage-time/flowcharts/create-new-request-employee.png)
+
+[Open image](use-cases/manage-time/flowcharts/create-new-request-employee.png)
 
 Create New Request (Employee)
 
 ![Create New Request - Manager](use-cases/manage-time/flowcharts/create-new-request.png)
 
+[Open image](use-cases/manage-time/flowcharts/create-new-request.png)
+
 Create New Request (Manager)
 
 ![Edit Request](use-cases/manage-time/flowcharts/edit-request.png)
+
+[Open image](use-cases/manage-time/flowcharts/edit-request.png)
 
 Edit Request
 
 ![Withdraw Request](use-cases/manage-time/flowcharts/withdraw-request.png)
 
+[Open image](use-cases/manage-time/flowcharts/withdraw-request.png)
+
 Withdraw Pending Request
 
 ![Cancel Request](use-cases/manage-time/flowcharts/cancel-request.png)
+
+[Open image](use-cases/manage-time/flowcharts/cancel-request.png)
 
 Cancel Request
 
@@ -65,20 +90,68 @@ Cancel Request
 
 ![Create New Request - Employee](use-cases/manage-time/sequence-diagrams/create-new-request-employee.png)
 
+[Open image](use-cases/manage-time/sequence-diagrams/create-new-request-employee.png)
+
 Create New Request (Employee)
 
 ![Create New Request - Manager](use-cases/manage-time/sequence-diagrams/create-request-manager.png)
+
+[Open image](use-cases/manage-time/sequence-diagrams/create-request-manager.png)
 
 Create New Request (Manager)
 
 ![Edit Request](use-cases/manage-time/sequence-diagrams/edit-request.png)
 
+[Open image](use-cases/manage-time/sequence-diagrams/edit-request.png)
+
 Edit Request
 
 ![Withdraw Request](use-cases/manage-time/sequence-diagrams/withdraw-request.png)
+
+[Open image](use-cases/manage-time/sequence-diagrams/withdraw-request.png)
 
 Withdraw Pending Request
 
 ![Cancel Request](use-cases/manage-time/sequence-diagrams/cancell-request.png)
 
+[Open image](use-cases/manage-time/sequence-diagrams/cancell-request.png)
+
 Cancel Request
+
+### UI
+
+![Vacation Requests UI](use-cases/manage-time/ui/list-vacation-requests.png)
+
+[Open UI image](use-cases/manage-time/ui/list-vacation-requests.png)
+
+## HR Approval Challenge
+
+### Pseudocode
+
+[Employee pseudocode](use-cases/challenges/hr-approval/pseudocode/employee--pseudocode.txt)
+
+[Manager pseudocode](use-cases/challenges/hr-approval/pseudocode/manager--pseudocode.txt)
+
+[HR pseudocode](use-cases/challenges/hr-approval/pseudocode/hr-pseudocode.txt)
+
+### ERD
+
+![HR Approval ERD](use-cases/challenges/hr-approval/erd/hr-approval.png)
+
+[Open ERD image](use-cases/challenges/hr-approval/erd/hr-approval.png)
+
+![Workflow Status ERD](use-cases/challenges/hr-approval/erd/workflow-status.png)
+
+[Open workflow status image](use-cases/challenges/hr-approval/erd/workflow-status.png)
+
+### Sequence Diagram
+
+![HR Approval Sequence Diagram](use-cases/challenges/hr-approval/sequence-diagram/hr-approval.png)
+
+[Open sequence diagram image](use-cases/challenges/hr-approval/sequence-diagram/hr-approval.png)
+
+### State Machine Diagram
+
+![HR Approval State Machine Diagram](use-cases/challenges/hr-approval/state-machine-diagram/Screenshot%20from%202026-04-17%2001-02-36.png)
+
+[Open state machine diagram image](use-cases/challenges/hr-approval/state-machine-diagram/Screenshot%20from%202026-04-17%2001-02-36.png)
