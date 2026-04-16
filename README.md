@@ -118,6 +118,12 @@ Withdraw Pending Request
 
 Cancel Request
 
+### Pseudocode
+
+[Employee pseudocode](use-cases/manage-time/pseudocode/employee-pseudocode.txt)
+
+[Manager pseudocode](use-cases/manage-time/pseudocode/manager-pseudocode.txt)
+
 ### UI
 
 ![Vacation Requests UI](use-cases/manage-time/ui/list-vacation-requests.png)
