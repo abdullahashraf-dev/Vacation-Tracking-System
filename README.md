@@ -67,7 +67,7 @@ Cancel Request
 
 Create New Request (Employee)
 
-![Create New Request - Manager](use-cases/manage-time/sequence-diagrams/create-new-request-manager.png)
+![Create New Request - Manager](use-cases/manage-time/sequence-diagrams/create-request-manager.png)
 
 Create New Request (Manager)
 
