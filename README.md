@@ -60,3 +60,25 @@ Withdraw Pending Request
 ![Cancel Request](use-cases/manage-time/flowcharts/cancel-request.png)
 
 Cancel Request
+
+### Sequence Diagrams
+
+![Create New Request - Employee](use-cases/manage-time/sequence-diagrams/create-new-request-employee.png)
+
+Create New Request (Employee)
+
+![Create New Request - Manager](use-cases/manage-time/sequence-diagrams/create-new-request-manager.png)
+
+Create New Request (Manager)
+
+![Edit Request](use-cases/manage-time/sequence-diagrams/edit-request.png)
+
+Edit Request
+
+![Withdraw Request](use-cases/manage-time/sequence-diagrams/withdraw-request.png)
+
+Withdraw Pending Request
+
+![Cancel Request](use-cases/manage-time/sequence-diagrams/cancell-request.png)
+
+Cancel Request
