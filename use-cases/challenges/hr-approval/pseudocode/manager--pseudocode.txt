@@ -1,0 +1,34 @@
+
+getRequests(managerId,paginationDto)
+{
+    return getRequests(managerId,paginationDto);
+}
+
+showRequest(requestId)
+{
+     validateRequestExist(requestId);
+     return getRequest(requestId);
+}
+
+approveRequest(requestId)
+{
+    validateRequestExist();
+    validateRequestStatus();
+    validateHrApproval(requestId);
+    updateRequest();
+    sendEmployeeEmail(requestId);
+}
+
+rejectRequest(requestId,rejectRequestDto)
+{
+    validateRequestExist();
+    validateRequestStatus();
+    validateHrApproval(requestId); 
+    updateRequest(rejectRequestDto);
+    sendEmployeeEmail(requestId);
+}
+
+
+
+
+
